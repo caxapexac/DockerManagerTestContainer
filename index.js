@@ -6,7 +6,7 @@ const app = express();
 
 app.get("/", (req, res) => {
     console.log("Root");
-    res.end("Hello root");
+    res.end("Hello rootssss");
 })
 
 app.use(numRouter);

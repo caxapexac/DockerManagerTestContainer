@@ -1,4 +1,4 @@
-const router = require("express").Router;
+const router = require("express").Router();
 
 router.get("/:num", (req, res, next) => {
     let num = req.params.num;
